@@ -34,9 +34,8 @@ From an interactive terminal, you should be able to import these classes an inte
 * When attempting to add an account, the user associated with said account must already registered as a customer.
 * When attempting to add an account, the account number must be unique.
 
-
 ```python
-from small_town_teller import Person, Account, Bank
+from OLDsmall_town_teller import Person, Account, Bank
 
 zc_bank = Bank()
 bob = Person(1, "Bob", "Smith")

@@ -1,16 +1,6 @@
-#DONE - Paste Kris' code in here
-#DONE - Pickle the code
-
-# small_town_teller.py
+# OLDsmall_town_teller.py
 import pickle
 
-
-
-# Declare a Person class with the following attributes:
-#
-# id
-# first name
-# last name
 class Person:
     pid = 100
 
@@ -26,11 +16,7 @@ class Person:
     def getid(self):
         return self.id
 
-# Declare an Account class with the following attributes:
-# number
-# type
-# owner
-# balance
+# Declare an Account class with the following attributes:# number # type # owner # balance
 class Account():
     aid = 100
 
